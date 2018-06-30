@@ -333,6 +333,54 @@
 				line-height: 1.6;
 			}
 
+			.part12{
+				height: 100%;
+				width: 100%;
+				margin: auto;
+				background: url('img/mpip.jpg') no-repeat 50% 50%;
+				background-size: cover;
+				display: table;
+				top: 0;
+				background-attachment: fixed;
+			}
+
+			.part12 p{
+				font-family: 'Lora', serif;
+				font-size: 120%;
+				color: #FFF;
+				text-align: left;
+				padding: 10% 70% 10% 10%;
+				line-height: 1.6;
+			}
+
+			.part13{
+				height: auto;
+				width: 100%;
+				margin: 0;
+				top: 0;
+				background-color: #000;
+				overflow: hidden;
+			}
+
+			.part13 img{
+				width: 60%;
+				height: auto;
+				padding: 5% 20% 0% 20%;
+			}
+
+			.part13 p{
+				font-family: 'Lora', serif;
+				font-size: 140%;
+				color: #FFF;
+				text-align: left;
+				padding: 5% 10% 5% 10%;
+				line-height: 1.6;
+			}
+
+			.part13{
+				display: none;
+			}
+
 			footer {
 			background-color: #2C2C2C;
 			margin: 0 auto;
@@ -439,6 +487,32 @@
 				padding: 12%;
 				line-height: 1.4;
 			}
+				
+			.part12 p{
+				font-size: 100%;
+				padding: 95% 12% 0% 12%;
+				line-height: 1.4;
+			}
+
+			.part12{
+				display: none;
+			}
+
+			.part13{
+				display: block;
+			}
+
+			.part13 p{
+				font-size: 100%;
+				padding: 5% 12% 12% 12%;
+				text-align: left;
+				line-height: 1.4;
+			}
+
+			.part13 img{
+				width: 76%;
+				padding: 12% 12% 0% 12%;
+			}
 
 			footer p {
 				font-family: 'Lora', serif;
@@ -506,6 +580,9 @@
 				background-attachment: scroll;
 			}
 			.part11{
+				background-attachment: scroll;
+			}
+			.part12{
 				background-attachment: scroll;
 			}
 
